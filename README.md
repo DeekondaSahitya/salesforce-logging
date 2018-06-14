@@ -14,8 +14,14 @@ Salesforce Logging Framework
 # Logging Settings - Custom Settings
 
 First must enable Logging with an entry to:  Logging_Settings__c (Custom Setting)
+Default Organization Level Value
 * Enable_Debug__c = TRUE
 * Enable_Exceptions__c = TRUE
+
+Then create a Logging_Settings__c entry for either a Profile or specific User.
+* Enable_Debug__c = [TRUE, FALSE]
+* Enable_Exceptions__c = [TRUE, FALSE]
+
 
 Logging hooks are implemented like this within each class
 
