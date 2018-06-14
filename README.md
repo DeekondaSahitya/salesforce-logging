@@ -48,6 +48,27 @@ public class myClass(){
 }
 ```
 
+# Logging Debug  - capturing custom debug statements
+
+```
+public class myClass(){
+
+    public void myMethod(){
+      Logger.push('myMethod','myClass');
+
+        try{
+            // Somecode
+            Logger.debug('Something in here');
+        catch (Exception e){
+            Logger.debugException (e);
+        }
+        
+      Logger.pop();
+    }
+
+}
+```
+
 
 
 # Issues
