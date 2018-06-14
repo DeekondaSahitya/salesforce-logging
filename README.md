@@ -11,6 +11,10 @@ Salesforce Logging Framework
 
 # Usage
 
+First must enable Logging with an entry to:  Logging_Settings__c (Custom Setting)
+* Enable_Debug__c = TRUE
+* Enable_Exceptions__c = TRUE
+
 Logging hooks are implemented like this within each class
 
 # Logger Setup - required methods
