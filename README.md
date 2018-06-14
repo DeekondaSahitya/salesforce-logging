@@ -11,7 +11,7 @@ Salesforce Logging Framework
 
 # Usage
 
-# Logging Settings - Custom Settings
+## Logging Settings - Custom Settings
 
 First must enable Logging with an entry to:  Logging_Settings__c (Custom Setting)
 Default Organization Level Value
@@ -25,7 +25,7 @@ Then create a Logging_Settings__c entry for either a Profile or specific User.
 
 Logging hooks are implemented like this within each class
 
-# Logger Setup - required methods
+## Logger Setup - required methods
 
 ```
 public class myClass(){
@@ -40,7 +40,7 @@ public class myClass(){
 ```
 Each class/method must include: Logger.push and Logger.pop in order to caputre logs for the entire class stack
 
-# Logging Custom Exception - capturing exceptions
+## Logging Custom Exception - capturing exceptions
 
 ```
 public class myClass(){
@@ -60,7 +60,7 @@ public class myClass(){
 }
 ```
 
-# Logging Debug  - capturing custom debug statements
+## Logging Debug  - capturing custom debug statements
 
 ```
 public class myClass(){
