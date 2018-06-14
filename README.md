@@ -11,6 +11,8 @@ Salesforce Logging Framework
 
 # Usage
 
+# Logging Settings - Custom Settings
+
 First must enable Logging with an entry to:  Logging_Settings__c (Custom Setting)
 * Enable_Debug__c = TRUE
 * Enable_Exceptions__c = TRUE
